@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Portfolio</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script type="text/javascript" href = "code.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <meta name="description" content="Responsive Resume / CV webpage template with HTML, SVG, CSS and JQuery; featuring standard and hover CSS keyframes animation and on click class toggle.">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://fonts.googleapis.com/css?family=Amatica+SC|Bungee+Outline|Bungee+Shade|Ewert|Fredericka+the+Great|Kumar+One+Outline|Ultra" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet"></head>
+  
+  
+<body>  
+<div class="container">
+  <!--page header-->
+  <div class="page-header">
+    <h1>JAY RATHOD</h1>
+      <p id="h1ptag">A keen techie.</p>
+  </div>
+  <!--end of page header-->
+  
+  <!--start of nav menu-->
+  <nav>
+    <ul class="showing">
+      <li class="nav-item"><a href="#profilesectionh3id">Profile</a></li>
+      <li class="nav-item"><a href="#techskillsh3id">Skills</a></li>
+      <li class="nav-item"><a href="#educationsectionh3id">Education</a></li>
+      <li class="nav-item"><a href="#employmentsectionh3id">Experience</a></li>
+      <li class="nav-item"><a href="#hobbiessectionh3id">Hobbies & Interests</a></li>
+      <li class="nav-item"><a href="#hobbiessectionh3id">Links</a></li>
+    </ul>
+    <div class="handle">Menu</div>
+  </nav>
+  <!--end of nav menu-->
+  
+  
+  <!--start of main content-->
+  <div class="main-content">
+  <div class="profilesectiondiv" id="profileid">
+    <section class="sectiontitle">
+      <h3 id="profilesectionh3id">PROFILE</h3>
+        <p>Hi, my name is Jay, and I am a computer engineering student from NIT,Surat.<br>I see myself as a person who is highly motivated to keep exploring this vas field. My main objective is to get better, by learning, seeking opportunities and contributing. </p>
+    </section>
+ </div>
+        <div class="skillssectiondiv" id="techskills">
+      <section class="sectiontitle">
+        <h3 id="techskillsh3id">SKILLS</h3>
+        <div class="firstchart">
+          <svg width="100" height="100" stroke-linecap="round">
+            <circle id="innerc1" r="35" cx="50" cy="50" />         
+<circle class="expertp" id="outerc1" r="40" cx="50" cy="50" />
+            <p class="expertp level" >Beginner</p>
+       <p class="expertp">NodeJs<br>ReactJs<br>Tkinter<br> </p>
+</svg>
+                  
+</div>
+<div class="secondchart">
+  <svg width="100" height="100" stroke-linecap="round">
+            <circle id="innerc2" r="35" cx="50" cy="50" />         
+            <circle id="outerc2" r="40" cx="50" cy="50" />
+  </svg>
+        <p class="expertp level">Proficient</p>
+        <p class="expertp">Django<br>Bootstrap<br>Three.js<br>C++</p>
+ </div>
+        <div class="thirdchart">
+<svg width="100" height="100" stroke-linecap="round">
+            <circle id="innerc3" r="35" cx="50" cy="50" />         
+<circle id="outerc3" r="40" cx="50" cy="50" />
+          </svg>
+          <p class="level" id="expertcircle">Expert</p>
+ <p class="expertp1">CSS<br>HTML Canvas<br>Python</p>
+        </div>
+        </section>
+    </div>
+    
+    <div class="educationsectiondiv sectiontitle">
+        <h3 id="educationsectionh3id">EDUCATION</h3>
+        <section class="timeline">
+  <ul>
+    <li>
+      <div>
+        <time>2015 |</time>
+        10th Grade
+        School : Anandalaya
+        Board : CBSE 
+        Score : 95%
+      </div>
+    </li>
+     <li>
+      <div>
+        <time>2017 |</time>
+        12th Grade
+        School : Anandalaya
+        Board : CBSE
+        Score : 92.8%
+       </div>
+    </li>
+    <li>
+      <div>
+        <time>Currently studying</time>
+        B.Tech Computer Engineering,
+        Institution : SVNIT , Surat
+        Year : II
+        CGPA : 8.2
+       </div>
+    </li>
+  <li>
+  </li>
+  </ul>
+</section>
+</div>
+    
+  <div class="experience"><h3 id = "employmentsectionh3id">Experience</h3>
+   <div class="jobholder">
+    <div class="job1">
+      <p class="jobyear" style="font-size: 20px;">2018 : Web Development at MELZO  </p>
+      <button class="roledetails1" style="font-size: 15px;">Tasks</button>
+       <ul class="listeddetails1">
+        <br>
+      <li>Building chatbots using DialogFlow, Wit.ai , IBM Watson etc</li>
+      <li>Implementing Google's invisible ReCaptcha on the site</li>
+      <li>Rendering 3D objects using three.js</li>
+      <li>Handling GDPR and other international tech compliances</li>
+      <li>Worked with NodeJs and ReactJs</li>
+  </ul>
+</div>
+      </div>
+  </section>
+  </div>
+<div class="hobbiessectiondiv">      
+  <section class="sectiontitle"><h3 id="hobbiessectionh3id">Hobbies & Interests</h3>
+  <p>I like working with Pure CSS and HTML Canvas to create animations and games. <br>I'm interested in Web Development ( Full stack ) .<br> I also have a keen interest in hacking and cryptography.<br> I like working out and staying fit.<br>I like playing football and I'm fond of skygazing.<br> I can dance and also play musical instruments like Table, Congo and Octapad.<br> I like watching movies / TV series and reading biographies. </p>
+  </section>
+</div>
+<section class="sectiontitle socialmedia">
+  <div>
+  <h3>Links</h3>
+    <div class="social">
+      <a href="https://www.codepen.io/jrathod9"><img id="codepenlogo"src="https://blog.codepen.io/wp-content/uploads/2012/06/Button-Black-Large.png"></a>
+    </div>
+    <div class="social">
+      <a href="https://www.github.com/jrathod9"><img id="github" src="https://cdn2.iconfinder.com/data/icons/social-icons-circular-color/512/github-512.png"></a>
+    </div>
+      <div class="social">
+      <a href="https://www.linkedin.com/in/jrathod9"><img id="behance" src="https://cdn4.iconfinder.com/data/icons/miu/24/circle_social-linkedin-outline-stroke-512.png"></a>
+    </div>
+
+</section>
+ </div>
+</div>
+<div> 
+</div>
+  </div>
+
+  <!--end of main content-->  
+<div class="copyrightetal">
+  <p>:) </p>
+</div>
+  </div></div>
+  </body>
+</html>
