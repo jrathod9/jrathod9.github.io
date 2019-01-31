@@ -6,42 +6,60 @@
 	<link rel="stylesheet" type="text/css" href="style.css">
 	<link href="https://fonts.googleapis.com/css?family=Quicksand:500" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
-	<script
-  src="https://code.jquery.com/jquery-3.3.1.js"
-  integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
-  crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.9"></script>
-  <link href="https://fonts.googleapis.com/css?family=Major+Mono+Display" rel="stylesheet">
-	<!-- <script src="https://code.jquery.com/jquery-3.2.1.js">
-	</script> -->
+	<script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+  	<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.9"></script>
+  	<link href="https://fonts.googleapis.com/css?family=Major+Mono+Display" rel="stylesheet">
+    <link href='http://fonts.googleapis.com/css?family=Raleway:100|Open+Sans:400,300' rel='stylesheet' type='text/css'>
 </head>
 <body>
-	<div class="wrapper">
+	<div class="wrapper" style="background-image: url(orig.jpeg);">
 		<nav>
 			<div class="logo">
 				<canvas id="canvas"></canvas>
 			</div>
 			<ul>
-				<li><a href="#">Home</a></li>
-				<li><a href="#">About</a></li>
-				<li><a href="#">Blog</a></li>
-				<li><a href="#">Contact</a></li>
-				<li><a href="#">Skills</a></li>
+				<li><a href="#first" style="transition: 1s;">Home</a></li>
+				<li><a href="#second" style="transition: 1s;">About</a></li>
+				<li><a href="#third" style="transition: 1s;">Blog</a></li>
+				<li><a href="#fourth" style="transition: 1s;">Contact</a></li>
+				<li><a href="#fifth">Skills</a></li>
 			</ul>
 		</nav>
-		<!-- <section class="sec1"></section> -->
-		<section class="sec1">
-			<br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-			<div id = "typedbox">
+	<section class="sec1" id = "first"> 
+		<br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+		<div id = "typedbox">
 			<div id="typed-strings">
     			<p>Web development and design</strong>.</p>
     			<p><i>EXPLORER.</i></p>
 			</div>
 			<span id="typed"></span>
+		</div>
+	</section>
+	<section class="sec2" id = "second">
+	<br>
+		<div style="width: 100%; height: 300px;">
+			<center><div id = "transitimg" style="height: 300px;width: 35%;" ></div></center>
+			<div style="padding-top: 0px; margin-top: -50px; ">
+				<center><p>Hey! <br>This is Jay Rathod,
+					I am a computer engineering student from NIT,Surat.<br>
+					I like exploring and experimenting with stuff.<br> 
+					I enjoy looking at and creating beautiful and intuitive visuals.My interest lies in <br> Web and Game develoment and design.</p></center>
 			</div>
-		</section>
-	</div>
+		</div>
+	</section>
+	<section class="sec2" id = "third">
+
+	</section>
+	<section class="sec2" id = "fourth">
+
+	</section>
+	<section class="sec2" id = "fifth">
+
+	</section>
+</div> 
 </body>
+
+<!-- Typed js -->
 <script>
   var typed = new Typed('#typed', {
     stringsElement: '#typed-strings',
@@ -49,6 +67,7 @@
     loop: true
   });
 </script>
-
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
 <script type="text/javascript" src="cnvs.js"></script>
+<script type="text/javascript" src="scrolleffects.js"></script>
 </html>

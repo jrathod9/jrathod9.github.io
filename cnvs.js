@@ -11,7 +11,7 @@ var ob = function(x,y,clr){
 
 var centerx  = (window.innerWidth/2-240)/20;
 var centery = 60;
-var scalerx = 100 ,scalery = 5;
+var scalerx = 100 ,scalery = 100;
 
 var mousex=0,mousey=0;
 var thresholdx=0,thresholdy=0;
@@ -49,7 +49,6 @@ function draw(){
     c.beginPath();
     c.globalAlpha = 0.6;
     for(i=0;i<layers.length;i++){
-        console.log(layers[i]);
         c.fillStyle = layers[i].clr;
         c.fillText(str,layers[i].x,layers[i].y);
     }
