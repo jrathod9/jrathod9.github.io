@@ -15,6 +15,7 @@ nav {
 	width: 100%;
 	height: 100px;
 	padding: 10px 100px;
+	padding-bottom: 20px;
 	box-sizing: border-box;
 	transition: .3s;
 }
@@ -115,12 +116,11 @@ section.sec2 {
 	box-shadow: inset 0 0 5px grey; 
     border-radius: 10px;
     background-color: black;
-    background-blend-mode: screen;
-
 }
  
 ::-webkit-scrollbar-thumb {
-  background-color: silver;
+  background-color: tomato;
+  border: 2px solid aqua;
   border-radius: 10px;
   box-shadow: 0px 0px 50px white;
 }
@@ -150,5 +150,6 @@ section.sec2 {
 	transition: 0.3s;
 	transition-timing-function: linear;
 }
+
 
 

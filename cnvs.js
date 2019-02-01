@@ -1,6 +1,6 @@
 var canvas = document.querySelector('canvas');
 var c = canvas.getContext('2d');
-canvas.height = 100;
+canvas.height = 90;
 canvas.width  = 300;
 
 var ob = function(x,y,clr){
@@ -11,7 +11,7 @@ var ob = function(x,y,clr){
 
 var centerx  = (window.innerWidth/2-240)/20;
 var centery = 60;
-var scalerx = 100 ,scalery = 100;
+var scalerx = 200 ,scalery = 200;
 
 var mousex=0,mousey=0;
 var thresholdx=0,thresholdy=0;
@@ -35,7 +35,7 @@ requestAnimationFrame(draw);
 function draw(){
 
     //calculate threshold
-    thresholdx = (centerx-mousex)/scalerx;
+    thresholdx = (centerx-mousex)/scalery;
     thresholdy = (centery-mousey)/scalerx;
 
     layers[0].x = centerx-thresholdx;
