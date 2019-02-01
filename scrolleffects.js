@@ -2,6 +2,7 @@ var num = 1;
 var navoff = 1;
 $(window).scroll(function () { 
   navoff = $('nav').offset();
+  console.log(navoff);
   num = $(window).scrollTop() / 10;
 
   if(parseInt(num)<10){
